@@ -1,0 +1,51 @@
+[user]
+	name = Vadim Filatov 
+	email = default87@gmail.com 
+[core]
+	editor = vim
+[alias]
+	st = status
+	#############
+	c = commit
+	ci = commit -m
+	#############
+	lg = log --oneline --graph --decorate
+	ll = log --stat --abbrev-commit
+	l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+	#############
+	co = checkout
+	cob = checkout -b
+	#############
+	br = branch
+	#############
+	f = fetch
+	fo = fetch origin
+	#############
+	m = merge
+	#############
+	ps = push
+	pl = pull
+	pso = push origin
+	plo = pull origin
+	#############
+	rb = rebase
+	#############
+	r = remote
+[color]
+	ui = true
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+	tool = vimdiff
