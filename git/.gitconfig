@@ -31,6 +31,9 @@
 	rb = rebase
 	#############
 	r = remote
+	#############
+	di = diff
+	dis = diff --staged
 [color]
 	ui = true
 [color "branch"]
